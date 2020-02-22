@@ -1,0 +1,6 @@
+CREATE TABLE projects(
+id_project int PRIMARY KEY,
+name varchar UNIQUE NOT NULL,
+key varchar NOT NULL UNIQUE,
+board_type varchar NOT NULL
+);
